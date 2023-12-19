@@ -1,12 +1,17 @@
-require("andre.plugins-setup")
 require("andre.core.options")
 require("andre.core.keymaps")
-require("andre.core.colorscheme")
-require("andre.plugins.nvim-tree")
-require("andre.plugins.lualine")
-require("andre.plugins.telescope")
-require("andre.plugins.vimtex")
-require("andre.plugins.ultisnips")
-require("andre.plugins.colorizer")
-require("andre.plugins.nvim-treesitter")
-require("andre.plugins.nvim-ufo")
+
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+if not vim.loop.fs_stat(lazypath) then
+  vim.fn.system({
+    "git",
+    "clone",
+    "--filter=blob:none",
+    "https://github.com/folke/lazy.nvim.git",
+    "--branch=stable", -- latest stable release
+    lazypath,
+  })
+end
+vim.opt.rtp:prepend(lazypath)
+
+require("andre.core.lazy-setup")
