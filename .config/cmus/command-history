@@ -1,0 +1,148 @@
+q
+player-play
+update-cache
+refresh 
+clear 
+refresh
+colorscheme solarized-dark
+colorscheme cyan
+colorscheme night
+colorscheme jellybeans
+colorscheme gruvbox-warm
+colorscheme gruvbox-alt
+colorscheme gruvbox
+set color_win_cur_sel_attr=
+set color_win_sel_attr=default
+set color_win_sel_attr=
+set color_win_sel_attr=underline
+colorscheme gray-88
+colorscheme dracula
+colorscheme base16-materia
+colorscheme amazon
+set color_win_sel_attr=none
+set color_statusline_attr=default
+colorscheme spotify
+colorscheme zenburn
+colorscheme xterm-white
+colorscheme tomorrow
+colorscheme green-mono-88
+colorscheme green
+colorscheme default
+set sort_albums_by_name=false
+set sort_albums_by_name=-false
+set pl_sort=-date
+set lib_sort=artist -date album discnumber tracknumber
+set lib_sort=artist -album discnumber tracknumber
+live-filter
+clear
+rand
+invert
+colorscheme solarized-light
+colorscheme defaulto
+colorscheme 
+update-cache 
+1q
+quit 
+set pl_sort=album
+set pl_sort=albumyear
+set lib_sort=artist albumyear album discnumber tracknumber
+bind -f common [ vol +1% +0
+u
+win-update
+update-cache -f
+set lib_sort=artist album discnumber tracknumber
+set display_artist_sort_name=true
+set aaa_mode=album
+w
+set status_display_program=cmusfm
+set status_display_program=
+set start_view=tree
+pause
+p
+set lib_sort=album
+set sort_albums_by_name=true
+set pl_sort=albumartist
+set lib_sort=
+set lib_sort=date album discnumber tracknumber title
+set lib_sort=artist date album discnumber tracknumber title
+set lib_sort=albumartist date album discnumber tracknumber title
+set format_treewin_artist=%A
+set format_treewin_artist=%l
+set smart_artist_sort=false
+help
+album
+set replaygain=disabled
+set smart_artist_sort=true
+set tree_width_max=0
+set tree_width_max=1
+Q
+set format_title=cmus: %t
+set format_title=cmus: %t (%y)
+set format_title=cmus: %a - %t (%y)
+set format_title=cmus %a - %t (%y)
+set format_current= %a - %l%! - %n. %t%= %y 
+set format_current= cmus %a - %l%! - %n. %t%= %y 
+q!
+set repeat=false
+set aaa_mode=discnumber
+set display_artist_sort_name=false
+set lib_sort=albumartist date album discnumber tracknumber title filename play_count
+--auth
+set format_trackwin=%3n %t%= %d 
+set format_trackwin_va=%3n %t (%a)%= %d 
+set format_treewin= %y %l
+set format_treewin=  %y %l
+set format_trackwin_album= %l %= %y %{albumduration} 
+set format_trackwin_va=%3n %t (%a)%= %y %d 
+set format_trackwin=%3n %t%= %y %d 
+set format_trackwin=%2n %t%= %y %d 
+set format_trackwin_va=%2n %t (%a)%= %y %d 
+set format_trackwin=%2D %2n %t%= %y %d 
+set format_trackwin_va=%2D %2n %t (%a)%= %y %d 
+set format_trackwin_va=%2D%2n %t (%a)%= %y %d 
+set format_trackwin_va=%2D.%2n %t (%a)%= %y %d 
+set format_trackwin_va=%n %t (%a)%= %y %d 
+set format_trackwin=
+set format_trackwin=%3n. %t%= %y %d 
+set format_trackwin=%1n. %t%= %y %d 
+set format_title=%a - %t (%y)
+set format_treewin=  %l
+set follow=true
+set continue=true
+set aaa_mode=artist
+set aaa_mode=albumartist
+albumartist
+set aaa_mode=album_artist
+cmus
+cmus-tutorial
+update
+colorscheme rc
+colorscheme list
+ 
+set pl_sort=false
+set pl_sort=artist
+set pl_sort=artistalbumartist
+set pl_sort=album_artist
+add
+set format_treewin_artist=%a
+set tree_width_percent=33
+set continue_album=false
+colorscheme
+set color_win_dir=default
+set color_titleline_fg=gray
+set color_win_cur_sel_bg=default
+set color_titleline_bg=default
+set color_titleline_bg=defaulf
+save
+set pause_on_output_change=true
+set show_current_bitrate=true
+set wrap_search=true
+set continue_album=true
+set color_separator=default
+set auto_reshuffle=false
+set aaa_mode=all
+quit
+set continue=false
+set mouse=true
+a /run/media/andre/Pakhuis/Medien/Musique/
+C
